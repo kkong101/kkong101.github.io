@@ -7,7 +7,7 @@
 
 # Site settings
 title: KKong
-brief-intro: Studying blog
+brief-intro: 개발자 공석원의 블로그
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kkong101.github.io" # the base hostname & protocol for your site
 
