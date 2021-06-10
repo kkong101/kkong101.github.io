@@ -1,15 +1,13 @@
 <div class="post-recent">
     <div class="pre">
-        
-        <p>{% if page.previous %}<strong>이전글 - </strong> <a href="{{ page.previous.url | prepend: site.baseurl }}">{{ page.previous.title }}</a>{% endif %}
-                <div class="nex">
-            {% if page.next %}
-            <p><strong>다음글 - </strong> <a href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title }}</a></p>
-            {% endif %}
-        </div>
-        </p>
-        
-
+        {% if page.previous %}
+        <strong>이전 - </strong> <a href="{{ page.previous.url | prepend: site.baseurl }}">{{ page.previous.title }}</a>
+        {% endif %}
     </div>
+    <div class="nex">
 
+        {% if page.next %}
+        <strong>다음 - </strong> <a href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title }}</a>
+        {% endif %}
+    </div>
 </div>
