@@ -16,6 +16,6 @@ type: page
 ## Contact
 
 * GitHub：[KKong101](https://github.com/kkong101)
-* email：aflhzv@gmail.com
+* Email：aflhzv@gmail.com
 
 
