@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: About Me😃
 permalink: /about/
 icon: heart
 type: page
