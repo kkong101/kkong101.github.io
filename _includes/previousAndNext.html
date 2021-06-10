@@ -3,12 +3,12 @@
     <br/>
     <div class="pre" style='display:inline;'>
         {% if page.previous %}
-        👈 <a href="{{ page.previous.url | prepend: site.baseurl }}">{{ page.previous.title }}</a>
+        👈이전포스트 <a href="{{ page.previous.url | prepend: site.baseurl }}">{{ page.previous.title }}</a>
         {% endif %}
     </div>
     <div class="nex" style='display:inline;'>
         {% if page.next %}
-        <a href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title }}</a> 👉
+        <a href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title }}</a> 다음포스트👉
         {% endif %}
     </div>
 </div>
